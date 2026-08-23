@@ -2,15 +2,12 @@
 using namespace std;
 
 int main() {
-    int A, B;
-    cin >> A >> B;
-
-    int sum = A + B;
-    double avg = (A + B) / 2.0;
+    int a, b;
+    cin >> a >> b;
 
     cout << fixed;
     cout.precision(1);
 
-    cout << sum << " " << avg;
+    cout << a + b << " " << (double)(a + b) / 2;
     return 0;
 }
