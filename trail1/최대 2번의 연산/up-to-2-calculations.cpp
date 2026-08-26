@@ -8,8 +8,7 @@ int main() {
         a /= 2;
     }
     if (a % 2 == 1) {
-        a += 1;
-        a /= 2;
+        a = (a + 1) / 2; 
     }
     cout << a;
     return 0;
